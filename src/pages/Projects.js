@@ -17,7 +17,7 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                <a href="https://github.com/JNNNNYao/elonma">ElonMA</a>
+                <a href="https://github.com/JNNNNYao/ElonMA">ElonMA</a>
               </h3>
               <i>Jun. 2022</i>
               <p>
@@ -25,7 +25,7 @@ function Projects() {
               </p>
             </div>
             <div className="image-block">
-              <img src={`${PUBLIC_URL}/project-ElonMA.png`} alt="" />
+              <img src={`${PUBLIC_URL}/project-elonma.png`} alt="" />
             </div>
           </section>
           <section className="project">
