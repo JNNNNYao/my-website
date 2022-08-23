@@ -1,0 +1,15 @@
+/// Gets a palette value.
+/// @param {string} $key Key.
+/// @return {string} Value.
+@function _palette($key) {
+	@return map-get($palette, $key);
+}
+
+$palette: (
+    // dark mode
+    one:						#204051,
+    two:						#456268,
+    three:						#FEFBF6,
+    four:                       #EAE3D2,
+    five:						#A5C9CA
+);

@@ -1,0 +1,42 @@
+@import 'libs/palette';
+
+.icons {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    font-size: 2em;
+
+    a {
+        text-decoration: none;
+        color: _palette(two);
+    }
+    
+    a:visited {
+        color: _palette(two);
+    }
+
+    a:hover {
+        color: _palette(five);
+    }
+
+    ul {
+        height: inherit;
+        width: 10em;
+        margin: auto;
+        padding-left: 0;
+
+        li {
+            display: inline-block;
+            width: 33%;
+            margin: auto;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+
+            a {
+                border-bottom: 0;
+                font-size: 1em;
+            }
+        }
+    }
+}

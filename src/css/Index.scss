@@ -1,0 +1,34 @@
+@import 'libs/palette';
+
+#index {
+    min-height: calc(100% - 50px);
+    margin-top: 64px;
+
+    .intro {
+        margin: auto;
+        text-align: center;
+        color: _palette(one);
+    
+        h2 {
+            font-size: 3em;
+        }
+    
+        img {
+            margin-top: 64px;
+            border-radius: 360px;
+            width: 240px;
+        }
+    }
+
+    .about {
+        width: 50%;
+        min-width: calc(min(100%, 320px));
+        margin: auto;
+        text-align: justify;
+        color: _palette(one);
+    
+        h2 {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import 'libs/palette';
+
+.footer {
+    display: block;
+    text-align: center;
+    background-color: _palette(two);
+
+    .copyright {
+        margin: 0;
+        border: 0;
+        color: _palette(three);
+        font-size: 12px;
+        height: 32px;
+        line-height: 32px;
+    }
+}
