@@ -56,6 +56,18 @@ function About() {
             </header>
             <div className="item">
               <h3>
+                <a href="https://www.mediatek.tw/">MediaTek</a>
+              </h3>
+              <div className="right">
+                <i>Jan. 2022 - Now</i>
+              </div>
+              <i>Research Intern in Intelligence Vision Processing team</i>
+              <ul>
+                <li>Research on Super-Resolution</li>
+              </ul>
+            </div>
+            <div className="item">
+              <h3>
                 <a href="https://www.nthu.edu.tw/">National Tsing Hua University</a>
               </h3>
               <div className="right">
