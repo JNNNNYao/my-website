@@ -6,7 +6,7 @@ import '../css/About.scss'
 const { PUBLIC_URL } = process.env;
 
 function About() {
-  const likes = ['Basketball (Lakers fan!)', 'Baseball', 'Soccer', 'Ski', 'Dogs', 'Killer Whale', 'Coffee', 'Coke Cola'];
+  const likes = ['Basketball (Lakers fan!)', 'Baseball', 'Soccer', 'Ski', 'Dogs', 'Killer Whale', 'Coffee', 'Coca-Cola'];
   return (
     <div class="body">
       <Navigation></Navigation>
