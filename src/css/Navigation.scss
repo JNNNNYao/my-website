@@ -65,4 +65,74 @@
             }
         }
     }
+
+    .navbar {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 1.5em;
+        height: inherit;
+        line-height: 72px;
+        
+        button {
+            color: _palette(three);
+            background-color: transparent;
+            border: 0;
+        }
+
+        button:hover {
+            color: _palette(five);
+        }
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        border-top: solid 2px _palette(three);
+        background-color: _palette(two);
+        text-align: center;
+
+        ul {
+            li {
+                display: flex;
+                flex-direction: column;
+
+                a {
+                    width: 100%;
+                }
+
+                a:hover {
+                    color: _palette(three);
+                }
+            }
+
+            li:hover {
+                background-color: _palette(five);
+            }
+        }
+    }
+
+    .menu-closed {
+        display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+        .links {
+            display: none;
+        }
+
+        .navbar {
+            display: block;
+        }
+    }
+
+    @media screen and (min-width: 600px) {
+        .menu {
+            display: none;
+        }
+    }
 }
