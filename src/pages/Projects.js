@@ -21,7 +21,7 @@ function Projects() {
               </h3>
               <i>Jun. 2022</i>
               <p>
-                It is a trolling discord bot that can receive the image of a person and swap his/her face with Elon Musk. Moreover, it can crawl the Twitter activities of Elon Musk so you can see all the memes posted by Elon Musk. We deploy our bot and deep model on a private cluster using Kubernetes. We use Keel and GitHub workflow to achieve continuous deployment. 
+                It is a trolling Discord bot that can receive the image of a person and swap his/her face with Elon Musk. Moreover, it can crawl Elon Musk's Twitter activities so that you won't miss any memes posted by Elon Musk. We deploy our bot and deep model on a private cluster using Kubernetes. We use Keel and GitHub workflow to achieve continuous deployment.
               </p>
             </div>
             <div className="image-block">

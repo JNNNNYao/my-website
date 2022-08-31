@@ -37,10 +37,10 @@ function About() {
             </header>
             <div className="item">
               <h3>
-                <a href="https://www.nthu.edu.tw/">National Tsing Hua University</a>
+                <a href="https://nthu-en.site.nthu.edu.tw/">National Tsing Hua University</a>
               </h3>
               <div className="right">
-                <i>Sep. 2018 – Jun. 2022</i>
+                <i>Sep. 2018 – June 2022</i>
               </div>
               <i>B.S in Computer Science</i>
               <ul>
@@ -56,41 +56,41 @@ function About() {
             </header>
             <div className="item">
               <h3>
-                <a href="https://www.mediatek.tw/">MediaTek</a>
+                <a href="https://www.mediatek.com/">MediaTek</a>
               </h3>
               <div className="right">
                 <i>Jan. 2022 - Now</i>
               </div>
               <i>Research Intern in Intelligence Vision Processing team</i>
               <ul>
-                <li>Research on Super-Resolution</li>
+                <li>Conducted research on Super-Resolution.</li>
+                <li>Experimented with new ideas and surveyed papers regarding Computer Vision.</li>
               </ul>
             </div>
             <div className="item">
               <h3>
-                <a href="https://www.nthu.edu.tw/">National Tsing Hua University</a>
+                <a href="https://nthu-en.site.nthu.edu.tw/">National Tsing Hua University</a>
               </h3>
               <div className="right">
                 <i>Spring 2021</i>
               </div>
               <i>Teaching Assistant of Introduction to Programming</i>
               <ul>
-                <li>Help organizing the curriculum and answering students' questions.</li>
-                <li>The course is offered in English.</li>
+                <li>Helped the professor organize the curriculum, guided students in learning, and developed their coding ability.</li>
+                <li>Used English when tutoring students because the whole course is offered in English.</li>
               </ul>
             </div>
             <div className="item">
               <h3>
-                <a href="https://www.itri.org.tw/">Industrial Technology Research Institute</a>
+                <a href="https://www.itri.org.tw/english/">Industrial Technology Research Institute</a>
               </h3>
               <div className="right">
-                <i>Jul. 2020 – Sep. 2020</i>
+                <i>July 2020 – Sep. 2020</i>
               </div>
-              <i>Data Science Intern at Computational Intelligence Technology Center</i>
+              <i>Data Science Intern at <a href="https://www.itri.org.tw/english/Computational-Intelligence-Technology-Center?CRWP=617753153253043007">Computational Intelligence Technology Center</a></i>
               <ul>
-                <li>Analyze data provided by industrial factory.</li>
-                <li>Predict the quality of production using Machine Learning.</li>
-                <li>Using tools like Numpy, Pandas, Scikit-Learn, Matplotlib, etc</li>
+                <li>Implemented data pipeline to preprocess and analyze data provided by industrial factories.</li>
+                <li>Extracted essential features and predicted the quality of production using Machine Learning models.</li>
               </ul>
             </div>
           </section>
@@ -128,22 +128,16 @@ function About() {
               <h2>Skills</h2>
             </header>
             <div className="item">
-              <b>Programming: </b><i>Python, C/C++, HTML/CSS, JavaScript</i>
+              <b>Programming & Software Frameworks: </b><i>Python, C/C++, HTML/CSS, JavaScript, React, Node.js</i>
             </div>
             <div className="item">
-              <b>Software Frameworks: </b><i>React, Node.js</i>
-            </div>
-            <div className="item">
-              <b>Data Science: </b><i>Numpy, Pandas, Matplotlib, Scikit-Learn</i>
-            </div>
-            <div className="item">
-              <b>Deep Learnings: </b><i>Tensorflow, Keras, PyTorch</i>
+              <b>Data Science & Deep Learning: </b><i>Numpy, Pandas, Matplotlib, Scikit-Learn, Tensorflow, PyTorch</i>
             </div>
             <div className="item">
               <b>Parallel Computing: </b><i>MPI, Pthread, OpenMP, CUDA</i>
             </div>
             <div className="item">
-              <b>English: </b><i>TOEFL 106</i>
+              <b>Language: </b><i>Mandarin(native), English(TOEFL 106/120, GRE 332/340)</i>
             </div>
           </section>
         </div>
