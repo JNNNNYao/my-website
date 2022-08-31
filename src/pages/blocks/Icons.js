@@ -7,17 +7,9 @@ import '../../css/Icons.scss';
 function Icons() {
     return (
         <div className="icons">
-            <ul>
-                <li key="Github">
-                    <a href="https://github.com/JNNNNYao/"><FontAwesomeIcon icon={faGithub}/></a>
-                </li>
-                <li key="LinkedIn">
-                    <a href="https://www.linkedin.com/in/MatthewYaoJN"><FontAwesomeIcon icon={faLinkedinIn}/></a>
-                </li>
-                <li key="Email">
-                    <a href="mailto:matt1129yao@gmail.com"><FontAwesomeIcon icon={faEnvelope}/></a>
-                </li>
-            </ul>
+            <a href="https://github.com/JNNNNYao/"><button><FontAwesomeIcon icon={faGithub}/> Github</button></a>
+            <a href="https://www.linkedin.com/in/MatthewYaoJN"><button><FontAwesomeIcon icon={faLinkedinIn}/> LinkedIn</button></a>
+            <a href="mailto:matt1129yao@gmail.com"><button><FontAwesomeIcon icon={faEnvelope}/> Email</button></a>
         </div>
     );
 }

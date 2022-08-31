@@ -3,8 +3,17 @@
 .icons {
     margin-top: 2em;
     margin-bottom: 2em;
-    width: 100%;
-    font-size: 2em;
+    width: calc(min(100%, 504px));
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media screen and (max-width: 504px) {
+        flex-direction: column;
+        text-align: center;
+        height: 147px;
+    }
 
     a {
         text-decoration: none;
@@ -19,24 +28,24 @@
         color: _palette(five);
     }
 
-    ul {
-        height: inherit;
-        width: 10em;
-        margin: auto;
-        padding-left: 0;
+    button {
+        color: _palette(two);
+        background-color: transparent;
+        border: 1px solid _palette(two);
+        border-radius: 6px;
+        width: 126px;
+        height: 42px;
+        text-align: center;
+        font-size: 1.25em;
+    }
+    
+    button:visited {
+        color: _palette(two);
+        border: 1px solid _palette(two);
+    }
 
-        li {
-            display: inline-block;
-            width: 33%;
-            margin: auto;
-            text-align: center;
-            padding: 0;
-            margin: 0;
-
-            a {
-                border-bottom: 0;
-                font-size: 1em;
-            }
-        }
+    button:hover {
+        color: _palette(five);
+        border: 1px solid _palette(five);
     }
 }
