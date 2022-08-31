@@ -72,6 +72,13 @@
 
                 .right {
                     text-align: right;
+                    line-height: 1em;
+                }
+
+                @media screen and (max-width: 860px) {
+                    .right {
+                        line-height: 2em;
+                    }
                 }
 
                 ul {
