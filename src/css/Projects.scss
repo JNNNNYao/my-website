@@ -16,8 +16,10 @@
         color: _palette(one);
     }
 
-    a:hover {
-        color: _palette(five);
+    @media (hover: hover) {
+        a:hover {
+            color: _palette(five);
+        }
     }
 
     .wrapper {

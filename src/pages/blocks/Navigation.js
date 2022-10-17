@@ -32,10 +32,14 @@ function Navigation() {
             <div className={expanded? "menu": "menu-closed"}>
                 <ul>
                     <li key="About">
-                        <Link to="/about">About</Link>
+                        <Link onClick={() => {
+                            setExpanded(!expanded)
+                        }} to="/about">About</Link>
                     </li>
                     <li key="Projects">
-                        <Link to="/projects">Projects</Link>
+                        <Link onClick={() => {
+                            setExpanded(!expanded)
+                        }} to="/projects">Projects</Link>
                     </li>
                 </ul>
             </div>

@@ -18,8 +18,10 @@
         color: _palette(three);
     }
 
-    a:hover {
-        color: _palette(five);
+    @media (hover: hover) {
+        a:hover {
+            color: _palette(five);
+        }
     }
         
 
@@ -80,8 +82,10 @@
             border: 0;
         }
 
-        button:hover {
-            color: _palette(five);
+        @media (hover: hover) {
+            button:hover {
+                color: _palette(five);
+            }
         }
     }
 
@@ -104,14 +108,6 @@
                 a {
                     width: 100%;
                 }
-
-                a:hover {
-                    color: _palette(three);
-                }
-            }
-
-            li:hover {
-                background-color: _palette(five);
             }
         }
     }
