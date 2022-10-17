@@ -45,8 +45,8 @@ function About() {
               <i>B.S in Computer Science</i>
               <ul>
                 <li>Overall GPA: 4.27 / 4.30</li>
-                <li>Ranking: 4 / 178</li>
-                <li>Academic Excellence Award (Spring 2019, Spring 2020, Fall 2020, Spring 2021)</li>
+                <li>Ranking: 1 / 142</li>
+                <li>Academic Achievement Award (Spring 2019, Spring 2020, Fall 2020, Spring 2021)</li>
               </ul>
             </div>
           </section>
@@ -64,7 +64,6 @@ function About() {
               <i>Research Intern in Intelligence Vision Processing team</i>
               <ul>
                 <li>Conducted research on Super-Resolution.</li>
-                <li>Experimented with new ideas and surveyed papers regarding Computer Vision.</li>
               </ul>
             </div>
             <div className="item">
@@ -76,8 +75,8 @@ function About() {
               </div>
               <i>Teaching Assistant of Introduction to Programming</i>
               <ul>
-                <li>Helped the professor organize the curriculum, guided students in learning, and developed their coding ability.</li>
-                <li>Used English when tutoring students because the whole course is offered in English.</li>
+                <li>Help the professor organize the curriculum and guided students in developing their coding ability i</li>
+                <li>Use English when tutoring students because the course is offered in Eng</li>
               </ul>
             </div>
             <div className="item">
@@ -89,8 +88,8 @@ function About() {
               </div>
               <i>Data Science Intern at <a href="https://www.itri.org.tw/english/Computational-Intelligence-Technology-Center?CRWP=617753153253043007">Computational Intelligence Technology Center</a></i>
               <ul>
-                <li>Implemented data pipeline to preprocess and analyze data provided by industrial factories.</li>
-                <li>Extracted essential features and predicted the quality of production using Machine Learning models.</li>
+                <li>Implement a data pipeline to process industrial factories' data.</li>
+                <li>Perform feature engineering and build Machine Learning models to predict factories' production quality.</li>
               </ul>
             </div>
           </section>
@@ -128,10 +127,10 @@ function About() {
               <h2>Skills</h2>
             </header>
             <div className="item">
-              <b>Programming & Software Frameworks: </b><i>Python, C/C++, HTML/CSS, JavaScript, React, Node.js</i>
+              <b>Programming & Software Frameworks: </b><i>C/C++, Python, HTML/CSS, JavaScript, React, Docker, Kubernetes, ROS</i>
             </div>
             <div className="item">
-              <b>Data Science & Deep Learning: </b><i>Numpy, Pandas, Matplotlib, Scikit-Learn, Tensorflow, PyTorch</i>
+              <b>Data Science & Deep Learning: </b><i>SQL, Numpy, Pandas, Scikit-Learn, Tensorflow, PyTorch</i>
             </div>
             <div className="item">
               <b>Parallel Computing: </b><i>MPI, Pthread, OpenMP, CUDA</i>

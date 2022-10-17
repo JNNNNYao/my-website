@@ -1,6 +1,8 @@
 import React from 'react';
 import Navigation from './blocks/Navigation';
 import Footer from './blocks/Footer'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShareAltSquare } from '@fortawesome/free-solid-svg-icons/faShareAltSquare';
 import '../css/Projects.scss'
 
 const { PUBLIC_URL } = process.env;
@@ -17,7 +19,7 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                <a href="https://github.com/JNNNNYao/ElonMA">ElonMA</a>
+                ElonMA <a href="https://github.com/JNNNNYao/ElonMA"><FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
               </h3>
               <i>Jun. 2022</i>
               <p>
@@ -31,7 +33,7 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                <a href="https://aduda.engine210.site/">Sim-to-Real: ADUDA</a>
+                Sim-to-Real: ADUDA <a href="https://aduda.engine210.site/"><FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
               </h3>
               <i>Dec. 2021</i>
               <p>
@@ -45,11 +47,11 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                <a href="https://github.com/JNNNNYao/GNGAN-Tensorflow">GNGAN-Tensorflow</a>
+                GNGAN-Tensorflow <a href="https://github.com/JNNNNYao/GNGAN-Tensorflow"><FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
               </h3>
               <i>Dec. 2021</i>
               <p>
-                Re-implementation of the ICCV 2021 paper "Gradient Normalization for Generative Adversarial Networks." The author proposed a gradient normalization method to alleviate the instability of training process GANs.
+                Re-implementation of the ICCV 2021 paper "Gradient Normalization for Generative Adversarial Networks." The author proposed a gradient normalization method to alleviate the instability of training process GANs. I trained it on DVM-CAR with a conditional setting so that the generative model can generate cars with specific brands. 
               </p>
             </div>
             <div className="image-block">
@@ -59,7 +61,7 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                <a href="https://github.com/JNNNNYao/Curiosity-Driven-Exploration-RL">Curiosity Driven Exploration RL</a>
+                Curiosity Driven Exploration RL <a href="https://github.com/JNNNNYao/Curiosity-Driven-Exploration-RL"><FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
               </h3>
               <i>Apr. 2021</i>
               <p>
