@@ -4,6 +4,7 @@ import Loading from './pages/Loading';
 import Index from './pages/Index';
 
 const About = lazy(() => import('./pages/About'));
+const Publications = lazy(() => import('./pages/Publications'));
 const Projects = lazy(() => import('./pages/Projects'));
 
 const { PUBLIC_URL } = process.env;
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Index/>} exact />
           <Route path="/about" element={<About/>} />
+          <Route path="/publications" element={<Publications/>} />
           <Route path="/projects" element={<Projects/>} />
         </Routes>
       </Suspense>

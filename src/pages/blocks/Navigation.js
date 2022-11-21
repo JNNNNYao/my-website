@@ -17,6 +17,9 @@ function Navigation() {
                     <li key="About">
                         <Link to="/about">About</Link>
                     </li>
+                    <li key="Publications">
+                        <Link to="/Publications">Publications</Link>
+                    </li>
                     <li key="Projects">
                         <Link to="/projects">Projects</Link>
                     </li>
@@ -35,6 +38,11 @@ function Navigation() {
                         <Link onClick={() => {
                             setExpanded(!expanded)
                         }} to="/about">About</Link>
+                    </li>
+                    <li key="Publications">
+                        <Link onClick={() => {
+                            setExpanded(!expanded)
+                        }} to="/Publications">Publications</Link>
                     </li>
                     <li key="Projects">
                         <Link onClick={() => {

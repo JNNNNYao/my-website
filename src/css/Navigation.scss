@@ -115,6 +115,7 @@
         border-top: solid 2px _palette(three);
         background-color: _palette(two);
         text-align: center;
+        opacity: 0.98;
 
         ul {
             li {
@@ -135,7 +136,7 @@
         display: none;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 800px) {
         .links {
             display: none;
         }
@@ -145,7 +146,7 @@
         }
     }
 
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 800px) {
         .menu {
             display: none;
         }

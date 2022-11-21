@@ -3,13 +3,13 @@
 .icons {
     margin-top: 2em;
     margin-bottom: 2em;
-    width: calc(min(100%, 504px));
+    width: calc(min(100%, 600px));
     margin: 40px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    @media screen and (max-width: 504px) {
+    @media screen and (max-width: 800px) {
         flex-direction: column;
         text-align: center;
         height: 147px;
