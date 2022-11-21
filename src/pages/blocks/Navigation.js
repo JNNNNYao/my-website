@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import '../../css/Navigation.scss';
 
 function Navigation() {
@@ -26,7 +26,7 @@ function Navigation() {
                 <button onClick={() => {
                     setExpanded(!expanded)
                 }}>
-                    <FontAwesomeIcon icon={faBars} size="2x" beat />
+                    {expanded? <FontAwesomeIcon icon={faXmark} size="2x" beat />: <FontAwesomeIcon icon={faBars} size="2x" beat />}
                 </button>
             </nav>
             <div className={expanded? "menu": "menu-closed"}>

@@ -46,4 +46,19 @@
             text-align: center;
         }
     }
+
+    animation-duration: 0.6s;
+    animation-name: slideright;
+
+    @keyframes slideright {
+        from {
+            margin-right: 200%;
+            width: 0%
+        }
+    
+        to {
+            margin-right: 0%;
+            width: 100%;
+        }
+    }
 }
