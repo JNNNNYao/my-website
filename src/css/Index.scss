@@ -4,19 +4,34 @@
     min-height: calc(100% - 50px);
     margin-top: 64px;
 
+    a {
+        text-decoration: none;
+        color: _palette(one);
+    }
+    
+    a:visited {
+        color: _palette(one);
+    }
+
+    @media (hover: hover) {
+        a:hover {
+            color: _palette(five);
+        }
+    }
+
     .intro {
         margin: auto;
         text-align: center;
         color: _palette(one);
     
         h2 {
-            font-size: 3em;
+            font-size: 2em;
         }
     
         img {
             margin-top: 64px;
             border-radius: 360px;
-            width: 240px;
+            width: calc(min(100%, 200px));
         }
     }
 

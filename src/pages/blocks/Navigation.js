@@ -9,9 +9,9 @@ function Navigation() {
 
     return (
         <header className="header">
-            <h1 className="index-link">
+            <h2 className="index-link">
                 <Link key="Matthew Yao" to="/">Matthew Yao</Link>
-            </h1>
+            </h2>
             <nav className="links">
                 <ul>
                     <li key="About">

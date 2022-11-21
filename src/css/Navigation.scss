@@ -39,20 +39,29 @@
         position: fixed;
         top: 0;
         left: 0;
-        padding: 0 0 0 4%;
+        padding: 0 0 0 2%;
         margin: 0 0 0 0;
+        font-size: 1.25em;
+        
+        @media (hover: hover) {
+            a:hover{
+                border-bottom: solid 2px _palette(five);
+                transition: all 0.2s ease;
+            }
+        }
     }
 
     .links {
         position: fixed;
         top: 0;
         right: 1.5em;
-        margin: 0 0 0 1.5em;
         padding: 0 0 0 1.5em;
         border-left: solid 1px _palette(three);
 
         ul {
             height: inherit;
+            font-size: 1.25em;
+            font-weight: bold;
             li {
                 border-left: solid 1px _palette(three);
                 line-height: 2em;
@@ -63,6 +72,13 @@
                     border-left: 0;
                     margin-left: 0;
                     padding-left: 0;
+                }
+
+                @media (hover: hover) {
+                    a:hover{
+                        border-bottom: solid 2px _palette(five);
+                        transition: all 0.2s ease;
+                    }
                 }
             }
         }

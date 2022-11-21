@@ -6,7 +6,7 @@ import '../css/About.scss'
 const { PUBLIC_URL } = process.env;
 
 function About() {
-  const likes = ['Basketball (Lakers fan!)', 'Baseball', 'Soccer', 'Ski', 'Dogs', 'Killer Whale', 'Coffee', 'Coca-Cola'];
+  const likes = ['Basketball (Lakers fan!) 🏀', 'Baseball ⚾', 'Soccer ⚽', 'Ski ⛷', 'Dogs 🐕', 'Killer Whale 🐋', 'Coffee ☕', 'Coca-Cola 🥤'];
   return (
     <div class="body">
       <Navigation></Navigation>
@@ -16,22 +16,9 @@ function About() {
             <header>
               <h2>About me</h2>
             </header>
-            <img src={`${PUBLIC_URL}/me_about.png`} alt="" />
-            <p>
-              Hi, this is Matthew!
-              I just received a bachelor's degree in Computer Science from National Tsing Hua University.
-              I plan to study for a master's degree in the US, so now I'm preparing for the Fall 2023 application.
-            </p>
+            {/* <img src={`${PUBLIC_URL}/me_about.png`} alt="" /> */}
           </section>
-          <section className="interest">
-            <header>
-              <h2>I like</h2>
-            </header>
-            <ul>
-              {likes.map((value, index) => { return <li>{value}</li> })}
-            </ul>
-          </section>
-          <section className="resume">
+          <section className="resume_top">
             <header>
               <h2>Education</h2>
             </header>
@@ -75,8 +62,8 @@ function About() {
               </div>
               <i>Teaching Assistant of Introduction to Programming</i>
               <ul>
-                <li>Help the professor organize the curriculum and guided students in developing their coding ability i</li>
-                <li>Use English when tutoring students because the course is offered in Eng</li>
+                <li>Help the professor organize the curriculum and guide students in developing their coding ability in C++.</li>
+                <li>Use English when tutoring students because the course is offered in English.</li>
               </ul>
             </div>
             <div className="item">
@@ -88,8 +75,8 @@ function About() {
               </div>
               <i>Data Science Intern at <a href="https://www.itri.org.tw/english/Computational-Intelligence-Technology-Center?CRWP=617753153253043007">Computational Intelligence Technology Center</a></i>
               <ul>
-                <li>Implement a data pipeline to process industrial factories' data.</li>
-                <li>Perform feature engineering and build Machine Learning models to predict factories' production quality.</li>
+                <li>Implement a data pipeline to preprocess and analyze data from an optoelectronic manufacturing factory.</li>
+                <li>Perform feature engineering and build Machine Learning models to predict the factory's production quality.</li>
               </ul>
             </div>
           </section>
@@ -107,7 +94,7 @@ function About() {
             </div>
             <div className="item">
               <i>
-                <b><a href="https://eecs.site.nthu.edu.tw/p/403-1005-1425-1.php?Lang=zh-tw">Zhu Shun Yi He Qin Scholarship</a></b>
+                <b><a href="https://eecs.site.nthu.edu.tw/p/403-1005-1425-1.php?Lang=zh-tw">Shun-I Chu and Zyxel Scholarship</a></b>
               </i>
               <div className="right">
                 <i>2020</i>
@@ -138,6 +125,15 @@ function About() {
             <div className="item">
               <b>Language: </b><i>Mandarin(native), English(TOEFL 106/120, GRE 332/340)</i>
             </div>
+          </section>
+          <section className="resume">
+            <header>
+              <h2>Misc</h2>
+            </header>
+            I like...
+            <ul>
+              {likes.map((value, index) => { return <li>{value}</li> })}
+            </ul>
           </section>
         </div>
       </div>

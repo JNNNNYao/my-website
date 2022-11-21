@@ -23,7 +23,7 @@ function Projects() {
               </h3>
               <i>Jun. 2022</i>
               <p>
-                It is a trolling Discord bot that can receive the image of a person and swap his/her face with Elon Musk. Moreover, it can crawl Elon Musk's Twitter activities so that you won't miss any memes posted by Elon Musk. We deploy our bot and deep model on a private cluster using Kubernetes. We use Keel and GitHub workflow to achieve continuous deployment.
+                It is a trolling Discord bot that can receive the image of a person and swap his/her face with Elon Musk. Moreover, it can crawl Elon Musk's Twitter activities so that you won't miss any memes posted by Elon Musk. We deploy our bot and deep model on a private cluster using Kubernetes. Each module is connected using RabbitMQ. We use Keel and GitHub workflow to achieve continuous deployment.
               </p>
             </div>
             <div className="image-block">
@@ -37,7 +37,7 @@ function Projects() {
               </h3>
               <i>Dec. 2021</i>
               <p>
-                This work targeted the techniques of Unsupervised Domain Adaptation (UDA) for semantic segmentation. We first improve the segmentation accuracy of the UDA Segmentation model. Then we prove its effectiveness in real applications by building an autonomous driving pipeline.
+                This work targeted the techniques of Unsupervised Domain Adaptation (UDA) for semantic segmentation. We first improve the segmentation accuracy of the UDA Segmentation model with simple yet effective designs. Then we prove its effectiveness in real applications by building an autonomous driving pipeline.
               </p>
             </div>
             <div className="image-block">
@@ -51,7 +51,7 @@ function Projects() {
               </h3>
               <i>Dec. 2021</i>
               <p>
-                Re-implementation of the ICCV 2021 paper "Gradient Normalization for Generative Adversarial Networks." The author proposed a gradient normalization method to alleviate the instability of training process GANs. I trained it on DVM-CAR with a conditional setting so that the generative model can generate cars with specific brands. 
+                Re-implementation of the ICCV 2021 paper "Gradient Normalization for Generative Adversarial Networks." The author proposed a gradient normalization method to alleviate the instability of training GANs. I trained it on DVM-CAR with a conditional setting so that the generative model can generate cars with specific brands. 
               </p>
             </div>
             <div className="image-block">
@@ -65,7 +65,7 @@ function Projects() {
               </h3>
               <i>Apr. 2021</i>
               <p>
-                Re-implementation of the ICML 2017 paper "Curiosity-driven Exploration by Self-supervised Prediction." To train an RL agent in a sparse reward setting, the author designed curiosity as an intrinsic reward signal that can enable the RL agent's exploration.
+                Re-implementation of the ICML 2017 paper "Curiosity-driven Exploration by Self-supervised Prediction." To train an RL agent in a sparse reward setting, the author designed curiosity as an intrinsic reward signal that facilitates the exploration of RL agents.
               </p>
             </div>
             <div className="image-block">
