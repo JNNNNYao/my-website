@@ -50,7 +50,8 @@ function About() {
               </div>
               <i>Research Intern in Intelligence Vision Processing team</i>
               <ul>
-                <li>Conducted research on Super-Resolution.</li>
+                <li>Research topic: Super-Resolution.</li>
+                <li>Survey papers, implement models, run experiments, write papers</li>
               </ul>
             </div>
             <div className="item">

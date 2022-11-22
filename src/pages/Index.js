@@ -19,7 +19,7 @@ function Index() {
             </section>
 
             <section className="about">
-                <h2>About</h2>
+                {/* <h2>About</h2> */}
                 <p>
                 Hi, this is Matthew! Welcome to my website&#128526;
                 I am a research intern at <a href='https://www.mediatek.com/'>MediaTek</a>, mentored by Yi-Chen Lo, Roy Tseng, and Chia-Che Chang. My research interests lie in the fields of learning with limited data, low-level vision, and implicit neural representation.
