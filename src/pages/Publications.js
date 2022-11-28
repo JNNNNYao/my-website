@@ -20,7 +20,7 @@ function Publications() {
                 Local Implicit Normalizing Flow for Arbitrary-Scale Image Super-Resolution
               </h3>
               <p><i><b>Jie-En Yao</b>, Li-Yuan Tsao, Yi-Chen Lo, Roy Tseng, Chia-Che Chang, Chun-Yi Lee</i></p>
-              <p><i>Under review, 2022</i></p>
+              <p><i>In Submission, 2022</i></p>
               <p>coming soon</p>
             </div>
             <div className="image-block">
