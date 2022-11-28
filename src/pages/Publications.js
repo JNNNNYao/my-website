@@ -17,6 +17,19 @@ function Publications() {
           <section className="publication">
             <div className="item">
               <h3>
+                Local Implicit Normalizing Flow for Arbitrary-Scale Image Super-Resolution
+              </h3>
+              <p><i><b>Jie-En Yao</b>, Li-Yuan Tsao, Yi-Chen Lo, Roy Tseng, Chia-Che Chang, Chun-Yi Lee</i></p>
+              <p><i>Under review, 2022</i></p>
+              <p>coming soon</p>
+            </div>
+            <div className="image-block">
+              <img src={`${PUBLIC_URL}/review.gif`} alt="" />
+            </div>
+          </section>
+          <section className="publication">
+            <div className="item">
+              <h3>
                 ELDA: Using Edges to Have an Edge on Semantic Segmentation Based UDA
               </h3>
               <p><i>Ting-Hsuan Liao, Huang-Ru Liao, <b>Jie-En Yao</b>, Shan-Ya Yang, Li-Yuan Tsao, Hsu-Shen Liu, Bo-Wun Cheng, Chen-Hao Chao, Chia-Che Chang, Yi-Chen Lo, Chun-Yi Lee</i></p>
