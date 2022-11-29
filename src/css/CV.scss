@@ -1,6 +1,6 @@
 @import 'libs/palette';
 
-#about {
+#cv {
     min-height: calc(100% - 50px);
     width: 100%;
     margin-top: 64px;
@@ -37,10 +37,6 @@
             margin: auto;
             text-align: center;
         
-            h2 {
-                font-size: 2em;
-            }
-        
             img {
                 margin-top: 0px;
                 border-radius: 30px;
@@ -63,29 +59,29 @@
             line-height: 2em;
             text-align: left;
             border-top: solid 1px _palette(four);
+        }
 
-            .item {
-                margin-top: 1.5em;
+        .item {
+            margin-top: 1.5em;
+            line-height: 1em;
+
+            h3 {
+                margin: 0;
+            }
+
+            .right {
+                text-align: right;
                 line-height: 1em;
+            }
 
-                h3 {
-                    margin: 0;
-                }
-
+            @media screen and (max-width: 860px) {
                 .right {
-                    text-align: right;
-                    line-height: 1em;
+                    line-height: 2em;
                 }
+            }
 
-                @media screen and (max-width: 860px) {
-                    .right {
-                        line-height: 2em;
-                    }
-                }
-
-                ul {
-                    line-height: 1.5em;
-                }
+            ul {
+                line-height: 1.5em;
             }
         }
 

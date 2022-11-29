@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Loading from './pages/Loading';
 import Index from './pages/Index';
 
-const About = lazy(() => import('./pages/About'));
+const CV = lazy(() => import('./pages/CV'));
 const Publications = lazy(() => import('./pages/Publications'));
 const Projects = lazy(() => import('./pages/Projects'));
 
@@ -15,7 +15,7 @@ function App() {
       <Suspense fallback={<Loading/>}>
         <Routes>
           <Route path="/" element={<Index/>} exact />
-          <Route path="/about" element={<About/>} />
+          <Route path="/cv" element={<CV/>} />
           <Route path="/publications" element={<Publications/>} />
           <Route path="/projects" element={<Projects/>} />
         </Routes>

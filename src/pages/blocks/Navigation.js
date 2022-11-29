@@ -14,8 +14,8 @@ function Navigation() {
             </h2>
             <nav className="links">
                 <ul>
-                    <li key="About">
-                        <Link to="/about">About</Link>
+                    <li key="CV">
+                        <Link to="/cv">CV</Link>
                     </li>
                     <li key="Publications">
                         <Link to="/Publications">Publications</Link>
@@ -34,10 +34,10 @@ function Navigation() {
             </nav>
             <div className={expanded? "menu": "menu-closed"}>
                 <ul>
-                    <li key="About">
+                    <li key="CV">
                         <Link onClick={() => {
                             setExpanded(!expanded)
-                        }} to="/about">About</Link>
+                        }} to="/cv">CV</Link>
                     </li>
                     <li key="Publications">
                         <Link onClick={() => {

@@ -1,22 +1,19 @@
 import React from 'react';
 import Navigation from './blocks/Navigation';
 import Footer from './blocks/Footer'
-import '../css/About.scss'
+import '../css/CV.scss'
 
-const { PUBLIC_URL } = process.env;
-
-function About() {
+function CV() {
   const likes = ['Basketball (Lakers fan!) 🏀', 'Baseball ⚾', 'Soccer ⚽', 'Ski ⛷', 'Dogs 🐕', 'Killer Whale 🐋', 'Coffee ☕', 'Coca-Cola 🥤'];
   return (
     <div class="body">
       <Navigation></Navigation>
-      <div id="about">
+      <div id="cv">
         <div className="wrapper">
           <section className="intro">
             <header>
-              <h2>About me</h2>
+              <h2>CV</h2>
             </header>
-            {/* <img src={`${PUBLIC_URL}/me_about.png`} alt="" /> */}
           </section>
           <section className="resume_top">
             <header>
@@ -29,9 +26,10 @@ function About() {
               <div className="right">
                 <i>Sep. 2018 – June 2022</i>
               </div>
-              <i>B.S in Computer Science</i>
+              <i>Bachelor of Science in Computer Science</i>
               <ul>
-                <li>Overall GPA: 4.27 / 4.30</li>
+                <li>Overall GPA: 4.27 / 4.3</li>
+                <li>Major GPA: 4.29 / 4.3</li>
                 <li>Ranking: 1 / 142</li>
                 <li>Academic Achievement Award (Spring 2019, Spring 2020, Fall 2020, Spring 2021)</li>
               </ul>
@@ -39,7 +37,7 @@ function About() {
           </section>
           <section className="resume">
             <header>
-              <h2>Experience</h2>
+              <h2>Research Experience</h2>
             </header>
             <div className="item">
               <h3>
@@ -51,22 +49,25 @@ function About() {
               <i>Research Intern in Intelligence Vision Processing team</i>
               <ul>
                 <li>Research topic: Super-Resolution.</li>
-                <li>Survey papers, implement models, run experiments, write papers</li>
               </ul>
             </div>
             <div className="item">
               <h3>
-                <a href="https://nthu-en.site.nthu.edu.tw/">National Tsing Hua University</a>
+                <a href="http://elsalab.ai/about">ELSA Lab</a>
               </h3>
               <div className="right">
-                <i>Spring 2021</i>
+                <i>Jan. 2022 - Now</i>
               </div>
-              <i>Teaching Assistant of Introduction to Programming</i>
+              <i>Undergraduate Research Assistant at National Tsing Hua University</i>
               <ul>
-                <li>Help the professor organize the curriculum and guide students in developing their coding ability in C++.</li>
-                <li>Use English when tutoring students because the course is offered in English.</li>
+                <li>Research topic: Unsupervised Domain Adaptation & Model-Based Reinforcement Learning.</li>
               </ul>
             </div>
+          </section>
+          <section className="resume">
+            <header>
+              <h2>Work Experience</h2>
+            </header>
             <div className="item">
               <h3>
                 <a href="https://www.itri.org.tw/english/">Industrial Technology Research Institute</a>
@@ -79,6 +80,44 @@ function About() {
                 <li>Implement a data pipeline to preprocess and analyze data from an optoelectronic manufacturing factory.</li>
                 <li>Perform feature engineering and build Machine Learning models to predict the factory's production quality.</li>
               </ul>
+            </div>
+          </section>
+          <section className="resume">
+            <header>
+              <h2>Teaching Experience</h2>
+            </header>
+            <div className="item">
+              <h3>
+                <a href="https://nthu-en.site.nthu.edu.tw/">National Tsing Hua University</a>
+              </h3>
+              <div className="right">
+                <i>Spring 2021</i>
+              </div>
+              <i>Teaching Assistant of Introduction to Programming</i>
+              <ul>
+                <li>Help the professor organize the curriculum and guide students in developing their coding ability in C++.</li>
+                <li>Use English when tutoring because the course is offered in English.</li>
+              </ul>
+            </div>
+          </section>
+          <section className="resume">
+            <header>
+              <h2>Skills</h2>
+            </header>
+            <div className="item">
+              <b>Programming Language: </b><i>C, C++, Python, Java, HTML, CSS, JavaScript</i>
+            </div>
+            <div className="item">
+              <b>Software Frameworks & Tools: </b><i>React, Docker, Kubernetes, ROS</i>
+            </div>
+            <div className="item">
+              <b>Data Science & Deep Learning: </b><i>SQL, Numpy, Pandas, Scikit-Learn, Tensorflow, PyTorch</i>
+            </div>
+            <div className="item">
+              <b>Parallel Computing: </b><i>MPI, Pthread, OpenMP, CUDA</i>
+            </div>
+            <div className="item">
+              <b>Language: </b><i>Mandarin(native), English(TOEFL 106/120, GRE 332/340)</i>
             </div>
           </section>
           <section className="resume">
@@ -112,23 +151,6 @@ function About() {
           </section>
           <section className="resume">
             <header>
-              <h2>Skills</h2>
-            </header>
-            <div className="item">
-              <b>Programming & Software Frameworks: </b><i>C/C++, Python, HTML/CSS, JavaScript, React, Docker, Kubernetes, ROS</i>
-            </div>
-            <div className="item">
-              <b>Data Science & Deep Learning: </b><i>SQL, Numpy, Pandas, Scikit-Learn, Tensorflow, PyTorch</i>
-            </div>
-            <div className="item">
-              <b>Parallel Computing: </b><i>MPI, Pthread, OpenMP, CUDA</i>
-            </div>
-            <div className="item">
-              <b>Language: </b><i>Mandarin(native), English(TOEFL 106/120, GRE 332/340)</i>
-            </div>
-          </section>
-          <section className="resume">
-            <header>
               <h2>Misc</h2>
             </header>
             I like...
@@ -143,4 +165,4 @@ function About() {
   );
 }
 
-export default About;
+export default CV;
