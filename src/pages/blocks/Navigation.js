@@ -23,6 +23,9 @@ function Navigation() {
                     <li key="Projects">
                         <Link to="/projects">Projects</Link>
                     </li>
+                    <li key="Misc">
+                        <Link to="/misc">Misc</Link>
+                    </li>
                 </ul>
             </nav>
             <nav className="navbar">
@@ -48,6 +51,11 @@ function Navigation() {
                         <Link onClick={() => {
                             setExpanded(!expanded)
                         }} to="/projects">Projects</Link>
+                    </li>
+                    <li key="Misc">
+                        <Link onClick={() => {
+                            setExpanded(!expanded)
+                        }} to="/misc">Misc</Link>
                     </li>
                 </ul>
             </div>

@@ -19,7 +19,7 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                ElonMA <a href="https://github.com/JNNNNYao/ElonMA"><FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
+                <a href="https://github.com/JNNNNYao/ElonMA">ElonMA <FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
               </h3>
               <i>Jun. 2022</i>
               <p>
@@ -33,11 +33,11 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                Sim-to-Real: ADUDA <a href="https://aduda.engine210.site/"><FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
+                <a href="https://aduda.engine210.site/">Sim-to-Real: ADUDA <FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
               </h3>
               <i>Dec. 2021</i>
               <p>
-                This work targeted the techniques of Unsupervised Domain Adaptation (UDA) for semantic segmentation. We first improve the segmentation accuracy of the UDA Segmentation model with simple yet effective designs. Then we prove its effectiveness in real applications by building an autonomous driving pipeline.
+                This work demonstrated the effectiveness of Unsupervised Domain Adaptation (UDA) and the Sim-to-Real setting with self-driving vehicle applications. We first improved the segmentation accuracy of the UDA Segmentation model with simple yet effective designs. Then, we trained RL agents in the simulator to control the vehicle with segmentation maps. Finally, we integrated the segmentation model, RL agent, and hardware devices (e.g., vehicle, camera, mobile computing platform) with ROS.
               </p>
             </div>
             <div className="image-block">
@@ -47,7 +47,7 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                GNGAN-Tensorflow <a href="https://github.com/JNNNNYao/GNGAN-Tensorflow"><FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
+                <a href="https://github.com/JNNNNYao/GNGAN-Tensorflow">GNGAN-Tensorflow <FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
               </h3>
               <i>Dec. 2021</i>
               <p>
@@ -61,7 +61,7 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                Curiosity Driven Exploration RL <a href="https://github.com/JNNNNYao/Curiosity-Driven-Exploration-RL"><FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
+                <a href="https://github.com/JNNNNYao/Curiosity-Driven-Exploration-RL">Curiosity Driven Exploration RL <FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
               </h3>
               <i>Apr. 2021</i>
               <p>

@@ -4,7 +4,6 @@ import Footer from './blocks/Footer'
 import '../css/CV.scss'
 
 function CV() {
-  const likes = ['Basketball (Lakers fan!) 🏀', 'Baseball ⚾', 'Soccer ⚽', 'Ski ⛷', 'Dogs 🐕', 'Killer Whale 🐋', 'Coffee ☕', 'Coca-Cola 🥤'];
   return (
     <div class="body">
       <Navigation></Navigation>
@@ -148,15 +147,6 @@ function CV() {
                 <i>2020</i>
               </div>
             </div>
-          </section>
-          <section className="resume">
-            <header>
-              <h2>Misc</h2>
-            </header>
-            I like...
-            <ul>
-              {likes.map((value, index) => { return <li>{value}</li> })}
-            </ul>
           </section>
         </div>
       </div>

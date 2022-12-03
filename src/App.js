@@ -6,6 +6,7 @@ import Index from './pages/Index';
 const CV = lazy(() => import('./pages/CV'));
 const Publications = lazy(() => import('./pages/Publications'));
 const Projects = lazy(() => import('./pages/Projects'));
+const Misc = lazy(() => import('./pages/Misc'));
 
 const { PUBLIC_URL } = process.env;
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/cv" element={<CV/>} />
           <Route path="/publications" element={<Publications/>} />
           <Route path="/projects" element={<Projects/>} />
+          <Route path="/misc" element={<Misc/>} />
         </Routes>
       </Suspense>
     </BrowserRouter>
