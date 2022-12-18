@@ -19,7 +19,7 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                <a href="https://github.com/JNNNNYao/ElonMA">ElonMA <FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
+                <a href="https://github.com/JNNNNYao/ElonMA">ElonMA <FontAwesomeIcon icon={faShareAltSquare} size='sm'/></a>
               </h3>
               <i>Jun. 2022</i>
               <p>
@@ -33,7 +33,7 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                <a href="https://aduda.engine210.site/">Sim-to-Real: ADUDA <FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
+                <a href="https://aduda.engine210.site/">Sim-to-Real: ADUDA <FontAwesomeIcon icon={faShareAltSquare} size='sm'/></a>
               </h3>
               <i>Dec. 2021</i>
               <p>
@@ -47,7 +47,7 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                <a href="https://github.com/JNNNNYao/GNGAN-Tensorflow">GNGAN-Tensorflow <FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
+                <a href="https://github.com/JNNNNYao/GNGAN-Tensorflow">GNGAN-Tensorflow <FontAwesomeIcon icon={faShareAltSquare} size='sm'/></a>
               </h3>
               <i>Dec. 2021</i>
               <p>
@@ -61,7 +61,7 @@ function Projects() {
           <section className="project">
             <div className="item">
               <h3>
-                <a href="https://github.com/JNNNNYao/Curiosity-Driven-Exploration-RL">Curiosity Driven Exploration RL <FontAwesomeIcon icon={faShareAltSquare} size='s'/></a>
+                <a href="https://github.com/JNNNNYao/Curiosity-Driven-Exploration-RL">Curiosity Driven Exploration RL <FontAwesomeIcon icon={faShareAltSquare} size='sm'/></a>
               </h3>
               <i>Apr. 2021</i>
               <p>
