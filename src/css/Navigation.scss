@@ -111,12 +111,13 @@
         flex-direction: column;
         position: absolute;
         top: 64px;
-        left: 0;
-        width: 100%;
+        left: 40%;
+        width: 60%;
         border-top: solid 2px _palette(three);
+        border-radius: 10px;
         background-color: _palette(two);
         text-align: center;
-        opacity: 0.98;
+        opacity: 0.95;
 
         ul {
             li {
@@ -158,12 +159,12 @@
     @keyframes slideleft {
         from {
             margin-left: 100%;
-            width: 250%
+            width: 60%
         }
     
         to {
             margin-left: 0%;
-            width: 100%;
+            width: 60%;
         }
     }
 }
