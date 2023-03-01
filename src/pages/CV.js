@@ -14,16 +14,18 @@ function CV() {
               <h2>CV</h2>
             </header>
           </section>
-          <section className="resume_top">
+          <section className="resume">
             <header>
               <h2>Education</h2>
             </header>
             <div className="item">
-              <h3>
-                <a href="https://nthu-en.site.nthu.edu.tw/">National Tsing Hua University</a>
-              </h3>
-              <div className="right">
-                <i>Sep. 2018 – June 2022</i>
+              <div className="title_and_date">
+                <h3>
+                  <a href="https://nthu-en.site.nthu.edu.tw/">National Tsing Hua University</a>
+                </h3>
+                <div>
+                  <i>Sep. 2018 – June 2022</i>
+                </div>
               </div>
               <i>Bachelor of Science in Computer Science</i>
               <ul>
@@ -39,11 +41,13 @@ function CV() {
               <h2>Research Experience</h2>
             </header>
             <div className="item">
-              <h3>
-                <a href="https://www.mediatek.com/">MediaTek</a>
-              </h3>
-              <div className="right">
-                <i>Jan. 2022 - Now</i>
+              <div className="title_and_date">
+                <h3>
+                  <a href="https://www.mediatek.com/">MediaTek</a>
+                </h3>
+                <div>
+                  <i>Jan. 2022 - Now</i>
+                </div>
               </div>
               <i>Research Intern in Intelligence Vision Processing team</i>
               <ul>
@@ -51,11 +55,13 @@ function CV() {
               </ul>
             </div>
             <div className="item">
-              <h3>
-                <a href="http://elsalab.ai/about">ELSA Lab</a>
-              </h3>
-              <div className="right">
-                <i>Jan. 2022 - Now</i>
+              <div className="title_and_date">
+                <h3>
+                  <a href="http://elsalab.ai/about">ELSA Lab</a>
+                </h3>
+                <div>
+                  <i>Jan. 2022 - Now</i>
+                </div>
               </div>
               <i>Undergraduate Research Assistant at National Tsing Hua University</i>
               <ul>
@@ -68,11 +74,13 @@ function CV() {
               <h2>Work Experience</h2>
             </header>
             <div className="item">
-              <h3>
-                <a href="https://www.itri.org.tw/english/">Industrial Technology Research Institute</a>
-              </h3>
-              <div className="right">
-                <i>July 2020 – Sep. 2020</i>
+              <div className="title_and_date">
+                <h3>
+                  <a href="https://www.itri.org.tw/english/">Industrial Technology Research Institute</a>
+                </h3>
+                <div>
+                  <i>July 2020 – Sep. 2020</i>
+                </div>
               </div>
               <i>Data Science Intern at <a href="https://www.itri.org.tw/english/Computational-Intelligence-Technology-Center?CRWP=617753153253043007">Computational Intelligence Technology Center</a></i>
               <ul>
@@ -86,11 +94,13 @@ function CV() {
               <h2>Teaching Experience</h2>
             </header>
             <div className="item">
-              <h3>
-                <a href="https://nthu-en.site.nthu.edu.tw/">National Tsing Hua University</a>
-              </h3>
-              <div className="right">
-                <i>Spring 2021</i>
+              <div className="title_and_date">
+                <h3>
+                  <a href="https://nthu-en.site.nthu.edu.tw/">National Tsing Hua University</a>
+                </h3>
+                <div>
+                  <i>Spring 2021</i>
+                </div>
               </div>
               <i>Teaching Assistant of Introduction to Programming</i>
               <ul>
@@ -124,27 +134,33 @@ function CV() {
               <h2>Honor</h2>
             </header>
             <div className="item">
-              <i>
-                <b><a href="http://www.ta-yung.com.tw/">Lin Hsiung Chen Memorial Scholarship</a></b>
-              </i>
-              <div className="right">
-                <i>2021</i>
+              <div className="title_and_date">
+                <i>
+                  <b><a href="http://www.ta-yung.com.tw/">Lin Hsiung Chen Memorial Scholarship</a></b>
+                </i>
+                <div>
+                  <i>2021</i>
+                </div>
               </div>
             </div>
             <div className="item">
-              <i>
-                <b><a href="https://eecs.site.nthu.edu.tw/p/403-1005-1425-1.php?Lang=zh-tw">Shun-I Chu and Zyxel Scholarship</a></b>
-              </i>
-              <div className="right">
-                <i>2020</i>
+              <div className="title_and_date">
+                <i>
+                  <b><a href="https://eecs.site.nthu.edu.tw/p/403-1005-1425-1.php?Lang=zh-tw">Shun-I Chu and Zyxel Scholarship</a></b>
+                </i>
+                <div>
+                  <i>2020</i>
+                </div>
               </div>
             </div>
             <div className="item">
-              <i>
-                <b><a href="https://pan.itri.org.tw/awards/scholarship.aspx?nid=F1F97516C31E9D90">Pan Wen Yuan Foundation Scholarship</a></b>
-              </i>
-              <div className="right">
-                <i>2020</i>
+              <div className="title_and_date">
+                <i>
+                  <b><a href="https://pan.itri.org.tw/awards/scholarship.aspx?nid=F1F97516C31E9D90">Pan Wen Yuan Foundation Scholarship</a></b>
+                </i>
+                <div>
+                  <i>2020</i>
+                </div>
               </div>
             </div>
           </section>
