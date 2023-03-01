@@ -46,7 +46,7 @@ function CV() {
                   <a href="https://www.mediatek.com/">MediaTek</a>
                 </h3>
                 <div>
-                  <i>Jan. 2022 - Now</i>
+                  <i>Jan. 2022 - Dec. 2022</i>
                 </div>
               </div>
               <i>Research Intern in Intelligence Vision Processing team</i>
@@ -60,7 +60,7 @@ function CV() {
                   <a href="http://elsalab.ai/about">ELSA Lab</a>
                 </h3>
                 <div>
-                  <i>Jan. 2022 - Now</i>
+                  <i>Feb. 2021 - June 2022</i>
                 </div>
               </div>
               <i>Undergraduate Research Assistant at National Tsing Hua University</i>
