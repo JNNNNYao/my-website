@@ -141,9 +141,6 @@ function CV() {
             <div className="item">
               <b>Parallel Computing: </b><i>MPI, Pthread, OpenMP, CUDA</i>
             </div>
-            <div className="item">
-              <b>Language: </b><i>Mandarin(native), English(TOEFL 106/120, GRE 332/340)</i>
-            </div>
           </section>
           <section className="resume">
             <header>
