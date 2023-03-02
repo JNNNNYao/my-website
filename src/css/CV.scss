@@ -43,9 +43,23 @@
             text-align: left;
             border-top: solid 1px _palette(four);
 
+            .image_and_item {
+                display: flex;
+                flex-direction: row;
+
+                img {
+                    width: calc(max(10%, 36px));
+                    height: calc(max(10%, 36px));
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    margin-right: 2%;
+                }
+            }
+
             .item {
                 margin-top: 1.5em;
                 line-height: 1em;
+                flex-grow: 1;
     
                 h3 {
                     margin: 0;
