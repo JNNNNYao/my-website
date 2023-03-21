@@ -21,7 +21,7 @@ function Publications() {
               </h3>
               <p><i><b><u>Jie-En Yao</u></b>, Li-Yuan Tsao, Yi-Chen Lo, Roy Tseng, Chia-Che Chang, Chun-Yi Lee</i></p>
               <p><i>IEEE Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2023</i></p>
-              <p>coming soon</p>
+              <p><a href='https://arxiv.org/abs/2303.05156'>arXiv</a></p>
             </div>
             <div className="image-block">
               <img src={`${PUBLIC_URL}/LINF.png`} alt="" />
